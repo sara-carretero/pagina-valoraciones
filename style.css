@@ -60,12 +60,16 @@ section .puntuacion {
   margin-bottom: 16px;
 }
 
+.contenedor-valoracion:nth-child(1) {
+  align-self: flex-start;
+}
+
 .contenedor-valoracion:nth-child(2) {
-  margin-left: 48px;
+  align-self: center;
 }
 
 .contenedor-valoracion:nth-child(3) {
-  margin-left: 96px;
+  align-self: flex-end;
 }
 
 .puntuacion-titulares h2 {
@@ -106,13 +110,21 @@ section .puntuacion {
   border-radius: 10px;
   width: 260px;
   line-height: 20px;
-  flex: 1;
+}
+
+.comentarios {
+  background-color: aqua;
+}
+
+
+.profile:nth-child(1) {
+  align-self: self-start;
 }
 
 .profile:nth-child(2) {
-  margin-top: 16px;
+  align-self: center;
 }
 
 .profile:nth-child(3) {
-  margin-top: 32px;
+  align-self: self-end;
 }
