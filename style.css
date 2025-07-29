@@ -110,21 +110,22 @@ section .puntuacion {
   border-radius: 10px;
   width: 260px;
   line-height: 20px;
+  flex: 1;
 }
 
 .comentarios {
-  background-color: aqua;
+  min-height: 250px;
 }
 
 
-.profile:nth-child(1) {
+.comentarios .profile:nth-child(1) {
   align-self: self-start;
 }
 
-.profile:nth-child(2) {
+.comentarios .profile:nth-child(2) {
   align-self: center;
 }
 
-.profile:nth-child(3) {
+.comentarios .profile:nth-child(3) {
   align-self: self-end;
 }
